@@ -1,4 +1,5 @@
-
+#ifndef STAGE_H
+#define STAGE_H
 #include <Button.h>
 class Stage {
   private:
@@ -20,3 +21,4 @@ class Stage {
     static void decrease();
     static void check();
 };
+#endif
